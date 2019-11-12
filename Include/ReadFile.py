@@ -52,10 +52,10 @@ if __name__ == '__main__':
         dict = object_list[recounter]
         if 'title' in dict:
             result_list.append(object_list[recounter])
-            list = object_list[recounter]
+            # list = object_list[recounter]
 
         recounter += 1
-        test.add_new_node("dady", "lyk")
+        # test.add_new_node("dady", "lyk")
 
 
     print(counter)
